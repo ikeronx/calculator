@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: inherit;
+    font-family:'Open Sans',Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    color: #fff;
 }
 
 html {
@@ -12,14 +15,13 @@ html {
 body {
     margin: 0;
     padding: 0;
-    color: rgb(211, 201, 188);
-    font-family: 'Roboto', sans-serif;
+    /* color: rgb(211, 201, 188); */
+    /* font-family: 'Roboto', sans-serif; */
     line-height: 1.6;
   }
 
 button {
     border: none;
-    color: inherit;
     font-family: inherit;
     font-size: inherit;
     cursor: pointer;
@@ -38,31 +40,25 @@ button {
       margin-top: 50px;
   }
 
-.calculator-grid {
-      width: 400px;
-      border-radius: 15px;
-      border: 1px rgba(107, 97, 84) solid;
-      padding: 20px;
-      background-color: rgba(59, 62, 63);
+.calculator {
+      width: 300px;
+      padding: 5px;
+      background:linear-gradient(#5C258D, #4389A2);
   }
 
-.output {
+.screen {
     padding: 10px 20px;
-    border: 1px rgb(125, 114, 97) solid;
-    border-radius: 5px;
-    margin-bottom: 20px;
-    background-color: rgba(26, 28, 29);
     text-align: right;
     word-wrap: break-word;
     word-break: break-all;
 }
 
-.previous-operand {
+.screen-last {
     min-height: 32px;
     font-size: 20px;
   }
   
-.current-operand {
+.screen-current {
     min-height: 64px;
     font-size: 40px;
   }
@@ -70,7 +66,7 @@ button {
 .buttons-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 10px;
+    grid-gap: 0px;
 }
 
 /* spreads the CLEAR and DELETE buttons */
@@ -80,43 +76,29 @@ button {
 
 .btn {
     padding: 20px;
-    border-radius: 5px;
-    border: 1px rgb(125, 114, 97) solid;
-    background-color: rgba(26, 28, 29);
+    background-color: inherit;
+    border:1px solid rgba(255,255,255,0.3);
 }
 
 .btn:hover {
-    background-color: rgba(206, 255, 91, 0);
-  }
-
-.btn:active {
-    background-color: rgba(204, 204, 204, 0);
+    background:rgba(255,255,255,0.3);
   }
 
  .btn-red {
-    background-color: rgb(76, 0, 5);
+    background-color: inherit;
   }
 
 .btn-red:hover {
-    background-color:rgba(173, 28, 35, 0.705);
-  }
-
-.btn-red:active {
-    background-color: rgb(81, 13, 16);
+    background-color:rgba(173, 28, 35, 0.3);
   }
 
 .btn-blue {
-    background-color: rgba(15, 19, 78);;
+    background-color: inherit;
   }
 
 .btn-blue:hover {
-    background-color: rgba(28, 18, 141, 0.808);
+    background-color: rgba(53, 43, 167, 0.3);
   }
-
-.btn-blue:active {
-    background-color: rgb(15, 9, 78);
-  }
-
 
   /* Disables input spinners in calc screen */
 input[type='number']::-webkit-inner-spin-button,
