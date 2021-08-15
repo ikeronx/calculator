@@ -77,7 +77,7 @@ button {
 .btn {
     padding: 20px;
     background-color: inherit;
-    border:1px solid rgba(255,255,255,0.3);
+    /* border:1px solid rgba(255,255,255,0.3); */
 }
 
 .btn:hover {
@@ -85,20 +85,64 @@ button {
   }
 
  .btn-red {
-    background-color: inherit;
+    background-color: rgba(173, 28, 35, 0.3);
+
   }
 
 .btn-red:hover {
-    background-color:rgba(173, 28, 35, 0.3);
+    background-color:rgba(255,255,255,0.3);
   }
 
 .btn-blue {
-    background-color: inherit;
-  }
-
-.btn-blue:hover {
     background-color: rgba(53, 43, 167, 0.3);
   }
+  
+#plusBtn{
+    background-color: rgba(32, 32, 32, 0.3);
+  }
+
+#plusBtn:hover{
+    background-color: rgba(255,255,255,0.3);
+  }
+
+#minusBtn{
+    background-color: rgba(32, 32, 32, 0.3);
+  }
+
+#minusBtn:hover{
+    background-color: rgba(255,255,255,0.3);
+  }
+
+#multiplyBtn{
+    background-color: rgba(32, 32, 32, 0.3);
+  }
+
+#multiplyBtn:hover{
+    background-color: rgba(255,255,255,0.3);
+  }
+
+#divideBtn{
+    background-color: rgba(32, 32, 32, 0.3);
+  }
+
+#divideBtn:hover{
+    background-color: rgba(255,255,255,0.3);
+  }
+
+#equalsBtn{
+    background-color: rgba(32, 32, 32, 0.3);
+}
+#equalsBtn:hover{
+    background-color: rgba(255,255,255,0.3);
+}
+
+#pointBtn{
+    background-color: rgba(32, 32, 32, 0.3);
+}
+
+#pointBtn:hover{
+    background-color: rgba(255,255,255,0.3);
+}
 
   /* Disables input spinners in calc screen */
 input[type='number']::-webkit-inner-spin-button,
