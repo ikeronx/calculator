@@ -2,7 +2,8 @@
 Final project for [The Odin Project](https://www.theodinproject.com/courses/foundations/lessons/calculator/) Foundations course. 
 
 #### Objective:
-To Create a webpage based calculator that can process 2 number inputs with an operator input (i.e. 2 + 2) and display the answer. [Live Demo 👈](https://ikeronx.github.io/calculator/)
+To Create a webpage based calculator that can process 2 number inputs with an operator input (i.e. 2 + 2) and display the answer. 
+[Live Demo 👈](https://ikeronx.github.io/calculator/)
 
 #### Goals:
   1. Must be able to process addition, subtraction, multiplication, and division.
