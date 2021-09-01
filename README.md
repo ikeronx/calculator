@@ -1,4 +1,4 @@
-# ➕ Calculator 👨🏾‍💻
+# Calculator 👨🏾‍💻
 Final project for [The Odin Project](https://www.theodinproject.com/courses/foundations/lessons/calculator/) Foundations course. 
 
 #### Objective:
